@@ -5,7 +5,7 @@ from .database.db import engine, SQLModel
 
 # Create tables on startup
 SQLModel.metadata.create_all(engine)
-\
+
 
 app = FastAPI()
 
